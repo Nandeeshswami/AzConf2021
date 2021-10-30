@@ -7,7 +7,7 @@ using Microsoft.Graph.Auth;
 
 public class Program
 {
-    private static readonly string _clientId = "79c7060a-c87a-4b9e-8112-a15e08e1dca4";
+    private static readonly string _clientId = "Add your Client ID";
 
     public static async Task Main(string[] args)
     {
