@@ -5,7 +5,7 @@ using Flurl.Http;
 
 public class Program
 {
-    private static readonly string _clientId = "0dff9ce3-dd7a-4fe0-920a-18daf1c6ad5a";
+    private static readonly string _clientId = "Add your Client ID";
 
     public static async Task Main(string[] args)
     {
