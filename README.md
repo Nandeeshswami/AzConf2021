@@ -64,6 +64,7 @@ YOu will be prompted to enter your credentials, once you have entered, you will 
 
 
 
+
 3. **Graph SDK**:Now that we have seen how to graph API calls let's see what Graph SDK and Auth SDK have to offer. Go to https://Nuget.org and search for Graph. We will use Graph & Graph.Auth libraries. Let's see how these make our lives easy. Get PRKDemo2.
 
 In our previous sample we made the below calls to get tokens but Graph.AUth makes lot of it seamless. We are replacing the below lines 
@@ -105,6 +106,7 @@ Here's the o/p.
 ![image](https://user-images.githubusercontent.com/3333558/139539888-e44a5e7c-2429-46ed-8c4e-47c460424424.png)
 
 
+
 4. Let's look at another demo to realize what we talked about in Slide 17. Specifically about Odata & SDK. Go to PRKDemo3 and look at the code file. In this sample we will use SDK to build advanced querying. Let's try to get an email with attachment and dump it's name. Sounds like we need a filter. Yes, and we can realize all of it with SDK.
 
 var emails = await client.Me.Messages.Request()
@@ -117,6 +119,7 @@ The above line does the trick. Running this, provides us below.
 
 Here's a snip of my email.
 ![image](https://user-images.githubusercontent.com/3333558/139540515-0275e545-0968-431b-9860-fc60d5fbaebe.png)
+
 
 
 5. Onto the next one, there may be scenarios where we may want to debug. I personally love the debugging options in VS and VS Code. But let's say we are using Graph SDK and building our Graph API and not getting the expected results. SDK provides you with code that can help in such scenarios. Open PRKDemo4.
@@ -133,6 +136,7 @@ Here's the o/p:
 
 **Assignement: Create a sample that uses SDKs to create a Team's Team and add a channel to it.**
 Hint: Look at Graph Explorer and find the query for creating a Team and channel. Use the code snippet from the Explorer.
+
 
 
 6. **Pagination:** : Imagine scenarios where we query graph to list all the emails sent in 10 days, there may be tons of results. It's impossible to return all the data at once. Hence it uses Odata.NextLink and provides the link to next page. While there may be APIs now which may not have pagination but it is always important to take care of this in your code. Here's am example where we are getting all the groups that a user is part of. 
@@ -168,6 +172,7 @@ Here's the code,
 Observe the code where we keep checking for **NextPageRequest**. Once it is NULL, we come out of the loop.
 Here's the output,
 ![image](https://user-images.githubusercontent.com/3333558/139542289-dadef025-d635-4a82-a635-57192b705dd0.png)
+
 
 
 7. **Graph tool kit** makes it easy to build UI components based on Graph API. It has a collection of reusable, framework-agnostic components and authentication providers for accessing and working with Microsoft Graph. The components are fully functional right of out of the box, with built in providers that authenticate with and fetch data from Microsoft Graph. We can use these right of the box.
