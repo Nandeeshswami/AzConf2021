@@ -4,7 +4,7 @@ This repo is for "The Power of Graph" session at AzConf 2021, azconf.dev. The se
 _**Script for the work Shop**_
 =================================
 
-1. Slides 1 to 13 provide you the base for the upcoming demos. You can download the slides attached to the repo to review and come to point 2.
+1. Slides 1 to 13 provide you the base for the upcoming demos. You can download the slides attached to the repo to review and come to point 2. Ideally run through slides and script side by side.
 
 
 2. Best way to learn Graph API is through Graph Explorer, go to https://aka.ms/ge and play around with the samples provided. 
@@ -181,9 +181,10 @@ Visit https://mgt.dev/ to play around.
 
 For detailed training on Graph Tool kit, check https://www.youtube.com/watch?v=tlZMt7vnUu4&ab_channel=MicrosoftDeveloper
 
-Check out our Tips section to become a Graph Pro Dev.
+Post the demos, do check out our Tips section to become a Graph Pro Dev. Props to my colleague @Kyle Marsh for this. Here's his github profile,
+https://github.com/kylemar
 
-Highly recommend the below session:
+Further, highly recommend the below sessions:
 https://www.youtube.com/watch?v=Mc1ilblJLJw
 
 https://github.com/piotrci/Microsoft-Graph-Efficient-Operations
